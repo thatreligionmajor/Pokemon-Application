@@ -38,6 +38,7 @@ function App() {
 
   return (
     <>
+      <img src="/pikachu.png" alt="a-pikachu-peeking"></img>
       <PokemonList pokemon={pokemon} />
       <Pagination 
       gotoNextPage={nextPageUrl ? gotoNextPage : null}
